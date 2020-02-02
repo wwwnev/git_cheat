@@ -52,6 +52,12 @@ Tout ce qui est expliqué plus haut se passe localement. Cependant si on veut tr
 ### Créer un repo Github
 Se connecter au site web de Github et créer un nouveau repo à partir du site.
 
+### Ajouter l'adresse remote du repo Github
+> git remote add origin https://github.com/zewozewo/git_cheat.git
+
 ### Ajouter un commit actuel au repo Github
-Un ou plusieurs commits ayant déjà été fait localement, il est temps de les envoyer en ligne. Pour se faire on utilisera la commande :
-> git push origin branch_name
+Un ou plusieurs commits ayant déjà été fait localement, il est temps de les envoyer en ligne. Pour se faire on utilise la commande :
+> git push -u origin branch_name
+
+En pratique le premier (et bien d'autres) push :
+> git push -u origin master
