@@ -9,6 +9,7 @@ Dans le terminal, changer le CWD pour le root du repo local et faire la commande
 git init
 ```
 
+Note: Executer toutes les commandes qui suivent à partir du CWD
 ## Ajouter un fichier au repo
 
 Afin de keep track des changements et d'inclure un fichier aux commits, il faut l'ajouter au repo à l'aide de
