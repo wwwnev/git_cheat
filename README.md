@@ -84,3 +84,14 @@ En pratique le premier (et bien d'autres) push :
 ```
 git push -u origin master
 ```
+
+### Copier un repo en ligne
+La commande creera un dossier pour le repo. Il faut donc changer le CWD pour le parent du futur repo. Par exemple `~/Document`. Durant la commande, le dossier `~/Document/repo` sera créé et sera le repo git.
+```
+git clone [url]
+```
+
+### Mettre à jour le repo
+```
+git pull
+```
